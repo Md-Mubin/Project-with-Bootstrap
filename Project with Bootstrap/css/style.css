@@ -241,6 +241,7 @@ a{
 .delivery{
     display: flex;
     gap: 28px;
+    
 }
 
 .delivery_info h2{
