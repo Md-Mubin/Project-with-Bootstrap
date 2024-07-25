@@ -1,0 +1,1121 @@
+/* ############ extra small responsive css start ############ */
+
+@media (max-width: 575.98px) {
+
+    /* === (xs) navbar responsive start === */
+    .check_box {
+        margin: 0 auto;
+    }
+
+    .navbar-toggler {
+        width: 80px;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    button:hover {
+        background-color: #abdfff;
+        color: #ffffff;
+    }
+
+    /* === (xs) navbar responsive end === */
+
+    /* === (xs) banner responsive start === */
+
+    #banner {
+        padding-bottom: 50px;
+    }
+
+    .banner_info {
+        margin-top: 0px;
+    }
+
+    .banner_info h1 {
+        width: 100%;
+        font-size: 35px;
+        line-height: 60px;
+    }
+
+    .banner_info p {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .buttons {
+        gap: 20px;
+        display: flex;
+    }
+
+    button {
+        width: 150px;
+        border: 1px solid;
+    }
+
+    button:hover {
+        pointer-events: none;
+    }
+
+    .banner_img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner_img img {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        animation: none;
+    }
+
+    /* === (xs) banner responsive end === */
+
+    /* === (xs) manu responsive start === */
+
+    #manu .manu_box {
+        width: 300px;
+        height: 300px;
+    }
+
+    #manu .manu_box:hover {
+        transform: none;
+        box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.2), 15px 15px 15px rgba(0, 0, 0, 0.1), inset -50px -50px 50px rgba(255, 255, 255, 0.2), inset 50px 50px 50px rgba(0, 0, 0, 0.1);
+    }
+
+    .manu_box a:hover {
+        color: #ffffff;
+        background-color: var(--brand-color);
+        transform: none;
+        box-shadow: none;
+    }
+
+    .food_img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .food_img img {
+        width: 90px;
+    }
+
+    .food_img:hover img {
+        transform: none;
+        filter: none;
+    }
+
+    /* === (xs) manu responsive end === */
+
+    /* === (xs) payment responsive start === */
+
+    .payment_part img {
+        width: 300px;
+    }
+
+    .payment_part {
+        flex-wrap: wrap;
+    }
+
+    .payment_cart {
+        box-shadow: none;
+    }
+
+    .payment_cart::before {
+        width: 0;
+    }
+
+    .payment_part {
+        height: 650px;
+        margin-bottom: 40px;
+    }
+
+    .payment_cart .payment_make {
+        transform: translateY(-85px);
+    }
+
+    /* === (xs) payment responsive end === */
+
+    /* === (xs) reviews responsive start === */
+
+    .review_card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .review_card p {
+        font-size: 14px;
+    }
+
+    /* === (xs) reviews responsive end === */
+
+    /* === (xs) facilities responsive start === */
+
+    #facilities img {
+        width: 300px;
+    }
+
+    .fcimg {
+        display: flex;
+        justify-content: center;
+    }
+
+    .facilities_info {
+        width: 100%;
+        height: 450px;
+    }
+
+    .facilities_info .service ul li {
+        width: 150px;
+        font-size: 15px;
+        display: flex;
+    }
+
+    /* === (xs) facilities responsive end === */
+
+    /* === (xs) support responsive start === */
+
+    #support {
+        padding-top: 0px;
+    }
+
+    .support_card {
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    .support_card h3 {
+        font-size: 20px;
+    }
+
+    .support_card p {
+        font-size: 14px;
+    }
+
+    /* === (xs) support responsive end === */
+
+    /* === (xs) contact responsive start === */
+
+    .contact_info {
+        width: 100%;
+    }
+
+    .map {
+        width: 100%;
+        text-align: center;
+    }
+
+    .map img {
+        width: 90%;
+        height: 70%;
+        border-radius: 25px;
+    }
+
+    /* === (xs) contact responsive end === */
+
+    /* === (xs) footer responsive start === */
+
+    footer .contact_items {
+        display: flex;
+        justify-content: start;
+        margin: 10px;
+    }
+
+    .footer_card .Logo {
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+
+    .deadline {
+        margin-top: 20px;
+    }
+
+    /* === (xs) footer responsive end === */
+}
+
+/* ############ extra small responsive css end ############ */
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+/* ############ small responsive css end ############ */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* === (sm) navbar responsive start === */
+    .check_box {
+        margin: 0 auto;
+    }
+
+    .navbar {
+        justify-content: space-between;
+    }
+
+    .navbar-toggler {
+        width: 80px;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    button:hover {
+        background-color: #abdfff;
+        color: #ffffff;
+    }
+
+    /* === (sm) navbar responsive end === */
+
+    /* === (sm) banner responsive start === */
+
+    .banner_info {
+        margin-top: 0px;
+    }
+
+    .banner_info h1 {
+        width: 450px;
+        font-size: 45px;
+    }
+
+    .banner_info p {
+        font-size: 15px;
+    }
+
+    .buttons {
+        gap: 20px;
+        display: flex;
+    }
+
+    button {
+        width: 150px;
+        border: 1px solid;
+    }
+
+    button:hover {
+        pointer-events: none;
+    }
+
+    .banner_img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner_img img {
+        width: 100%;
+        height: 100%;
+        margin-left: 0;
+        animation: none;
+    }
+
+    /* === (sm) banner responsive end === */
+
+    /* === (sm) manu responsive start === */
+
+    #manu .manu_box {
+        width: 300px;
+        height: 300px;
+    }
+
+    #manu .manu_box:hover {
+        transform: none;
+        box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.2), 15px 15px 15px rgba(0, 0, 0, 0.1), inset -50px -50px 50px rgba(255, 255, 255, 0.2), inset 50px 50px 50px rgba(0, 0, 0, 0.1);
+    }
+
+    .manu_box a:hover {
+        color: #ffffff;
+        background-color: var(--brand-color);
+        transform: none;
+        box-shadow: none;
+    }
+
+    .food_img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .food_img img {
+        width: 90px;
+    }
+
+    .food_img:hover img {
+        transform: none;
+        filter: none;
+    }
+
+    /* === (sm) manu responsive end === */
+
+    /* === (sm) payment responsive start === */
+
+    .payment_part img {
+        width: 300px;
+    }
+
+    .payment_part {
+        flex-wrap: wrap;
+    }
+
+    .payment_cart {
+        box-shadow: none;
+    }
+
+    .payment_cart::before {
+        width: 0;
+    }
+
+    .payment_part {
+        height: 650px;
+        margin-bottom: 40px;
+    }
+
+    .payment_cart .payment_make {
+        transform: translateY(-85px);
+    }
+
+    /* === (sm) payment responsive end === */
+
+    /* === (sm) reviews responsive start === */
+
+    .review_card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .review_card p {
+        font-size: 14px;
+    }
+
+    /* === (sm) reviews responsive end === */
+
+    /* === (sm) facilities responsive start === */
+
+    #facilities img {
+        width: 300px;
+    }
+
+    .fcimg {
+        display: flex;
+        justify-content: center;
+    }
+
+    .facilities_info {
+        width: 100%;
+        height: 450px;
+    }
+
+    .facilities_info .service ul li {
+        width: 150px;
+        font-size: 15px;
+        display: flex;
+    }
+
+    /* === (sm) facilities responsive end === */
+
+    /* === (sm) support responsive start === */
+
+    #support {
+        padding-top: 0px;
+    }
+
+    .support_card {
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    .support_card h3 {
+        font-size: 20px;
+    }
+
+    .support_card p {
+        font-size: 14px;
+    }
+
+    /* === (sm) support responsive end === */
+
+    /* === (sm) contact responsive start === */
+
+    .contact_info {
+        width: 100%;
+    }
+
+    .map {
+        width: 100%;
+        text-align: center;
+    }
+
+    .map img {
+        width: 90%;
+        height: 70%;
+        border-radius: 25px;
+    }
+
+    /* === (sm) contact responsive end === */
+
+    /* === (sm) footer responsive start === */
+
+    footer {
+        padding-top: 40px;
+    }
+
+    footer .contact_items {
+        width: 180px;
+    }
+
+    .footer_card .Logo {
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+
+    .footer_links .links {
+        margin-top: 20px;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .subscribe p {
+        margin-top: 15px;
+    }
+
+    .deadline {
+        margin-top: 20px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .deadline .footer_link {
+        margin-top: 10px;
+    }
+
+    /* === (sm) footer responsive end === */
+
+}
+
+/* ############ small responsive css end ############ */
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+/* ############ medium responsive css start ############ */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* === (md) navbar responsive start === */
+    .check_box {
+        margin: 0 auto;
+    }
+
+    .navbar-toggler {
+        width: 80px;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    button:hover {
+        background-color: #abdfff;
+        color: #ffffff;
+    }
+
+    /* === (md) navbar responsive end === */
+
+    /* === (md) banner responsive start === */
+
+    .banner_info {
+        margin-top: 0px;
+    }
+
+    .banner_info h1 {
+        width: 600px;
+        font-size: 50px;
+    }
+
+    .banner_info p {
+        width: 450px;
+        font-size: 19px;
+    }
+
+    .buttons {
+        margin-top: 20px;
+        gap: 20px;
+        display: flex;
+    }
+
+    button {
+        width: 150px;
+        border: 1px solid;
+    }
+
+    button:hover {
+        pointer-events: none;
+    }
+
+    .banner_img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner_img img {
+        width: 100%;
+        height: 100%;
+        margin-left: 0;
+        animation: none;
+    }
+
+    /* === (md) banner responsive end === */
+
+    /* === (md) manu responsive start === */
+
+    #manu .manu_box {
+        width: 300px;
+        height: 300px;
+    }
+
+    #manu .manu_box:hover {
+        transform: none;
+        box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.2), 15px 15px 15px rgba(0, 0, 0, 0.1), inset -50px -50px 50px rgba(255, 255, 255, 0.2), inset 50px 50px 50px rgba(0, 0, 0, 0.1);
+    }
+
+    .manu_box a:hover {
+        color: #ffffff;
+        background-color: var(--brand-color);
+        transform: none;
+        box-shadow: none;
+    }
+
+    .food_img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .food_img img {
+        width: 90px;
+    }
+
+    .food_img:hover img {
+        transform: none;
+        filter: none;
+    }
+
+    /* === (md) manu responsive end === */
+
+    /* === (md) payment responsive start === */
+
+    .payment_part img {
+        width: 300px;
+    }
+
+    .payment_part {
+        flex-wrap: nowrap;
+    }
+
+    .payment_cart {
+        box-shadow: none;
+    }
+
+    .payment_cart::before {
+        content: none;
+    }
+
+    .payment_part {
+        height: 400px;
+        margin-bottom: 20px;
+    }
+
+    /* === (md) payment responsive end === */
+
+    /* === (md) reviews responsive start === */
+
+    .review_card {
+        width: 100%;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+
+    .review_card p {
+        font-size: 14px;
+    }
+
+    /* === (md) reviews responsive end === */
+
+    /* === (md) facilities responsive start === */
+
+    #facilities {
+        padding-top: 20px;
+        padding-bottom: 35px;
+    }
+
+    #facilities img {
+        width: 300px;
+    }
+
+    .fcimg {
+        display: flex;
+        justify-content: center;
+    }
+
+    .facilities_info {
+        width: 100%;
+        height: 300px;
+    }
+
+    /* === (md) facilities responsive end === */
+
+    /* === (md) support responsive start === */
+
+    #support {
+        padding-top: 0px;
+    }
+
+    .support_card {
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    .support_card h3 {
+        font-size: 20px;
+    }
+
+    .support_card p {
+        font-size: 14px;
+    }
+
+    /* === (md) support responsive end === */
+
+    /* === (md) contact responsive start === */
+
+    .contact_info {
+        width: 100%;
+    }
+
+    .map {
+        width: 100%;
+        text-align: center;
+    }
+
+    .map img {
+        width: 90%;
+        height: 70%;
+        border-radius: 25px;
+    }
+
+    /* === (md) contact responsive end === */
+
+    /* === (md) footer responsive start === */
+
+    footer {
+        padding-top: 40px;
+    }
+
+    footer .contact_items {
+        width: 240px;
+    }
+
+    .footer_card .Logo {
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+
+    .footer_links .links {
+        margin-top: 20px;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .subscribe p {
+        margin-top: 15px;
+    }
+
+    .deadline {
+        margin-top: 20px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .deadline .footer_link {
+        margin-top: 10px;
+    }
+
+    /* === (md) footer responsive end === */
+
+}
+/* ############ medium responsive css end ############ */
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+/* ############ large responsive css start ############ */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /* === (lg) navbar responsive start === */
+
+    .nav-item {
+        padding: 0;
+    }
+
+    /* === (lg) navbar responsive end === */
+
+    /* === (lg) banner responsive start === */
+
+    .banner_info {
+        margin-top: 0px;
+    }
+
+    .banner_info h1 {
+        width: 100%;
+        font-size: 60px;
+    }
+
+    .banner_info p {
+        width: 600px;
+        font-size: 20px;
+    }
+
+    .buttons {
+        margin-top: 20px;
+        gap: 20px;
+        display: flex;
+    }
+
+    button {
+        width: 150px;
+        border: 1px solid;
+    }
+
+    button:hover {
+        pointer-events: none;
+    }
+
+    .banner_img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner_img img {
+        width: 100%;
+        height: 100%;
+        margin-left: 0;
+        animation: none;
+    }
+
+    /* === (lg) banner responsive end === */
+
+    /* === (lg) manu responsive start === */
+
+    #manu .manu_box {
+        width: 300px;
+        height: 300px;
+    }
+
+    #manu .manu_box:hover {
+        transform: none;
+        box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.2), 15px 15px 15px rgba(0, 0, 0, 0.1), inset -50px -50px 50px rgba(255, 255, 255, 0.2), inset 50px 50px 50px rgba(0, 0, 0, 0.1);
+    }
+
+    .manu_box a:hover {
+        color: #ffffff;
+        background-color: var(--brand-color);
+        transform: none;
+        box-shadow: none;
+    }
+
+    .food_img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .food_img img {
+        width: 90px;
+    }
+
+    .food_img:hover img {
+        transform: none;
+        filter: none;
+    }
+
+    /* === (lg) manu responsive end === */
+
+    /* === (lg) payment responsive start === */
+
+    .payment_part img {
+        width: 300px;
+    }
+
+    .payment_part {
+        flex-wrap: nowrap;
+    }
+
+    .payment_cart {
+        box-shadow: none;
+    }
+
+    .payment_cart::before {
+        content: none;
+    }
+
+    .payment_part {
+        height: 400px;
+        margin-bottom: 20px;
+    }
+
+    /* === (lg) payment responsive end === */
+
+    /* === (lg) reviews responsive start === */
+
+    .review_card {
+        width: 300px;
+        height: 280px;
+    }
+
+    .review_card p {
+        font-size: 14px;
+    }
+
+    #reviews .review_col {
+        width: 320px;
+        flex-wrap: nowrap;
+    }
+
+    /* === (lg) reviews responsive end === */
+
+    /* === (lg) facilities responsive start === */
+
+    #facilities {
+        padding-top: 20px;
+        padding-bottom: 35px;
+    }
+
+    #facilities img {
+        width: 300px;
+    }
+
+    .fcimg {
+        display: flex;
+        justify-content: center;
+    }
+
+    .facilities_info {
+        width: 100%;
+        height: 300px;
+    }
+
+    /* === (lg) facilities responsive end === */
+
+    /* === (lg) support responsive start === */
+
+    #support {
+        padding-top: 0px;
+    }
+
+    .support_card {
+        width: 280px;
+        margin: 10px auto;
+    }
+
+    .support_card h3 {
+        font-size: 20px;
+    }
+
+    .support_card p {
+        font-size: 14px;
+    }
+
+    .suprow{
+        justify-content: space-between;
+    }
+
+    .supcol{
+        width: 300px;
+    }
+
+    /* === (lg) support responsive end === */
+
+    /* === (lg) contact responsive start === */
+
+    .contact_info {
+        width: 100%;
+    }
+
+    .map {
+        width: 100%;
+        text-align: center;
+    }
+
+    .map img {
+        width: 90%;
+        height: 70%;
+        border-radius: 25px;
+    }
+
+    #contact .contcol {
+        width: 480px;
+    }
+
+    /* === (lg) contact responsive end === */
+
+    /* === (lg) footer responsive start === */
+
+    footer {
+        padding-top: 40px;
+    }
+
+    footer .contact_items {
+        width: 320px;
+    }
+
+    .footer_card .Logo {
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+
+    .footer_links .links {
+        margin-top: 20px;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .subscribe p {
+        margin-top: 15px;
+    }
+
+    .deadline {
+        margin-top: 20px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .deadline .footer_links {
+        margin-top: 10px;
+    }
+
+    /* === (lg) footer responsive end === */
+
+}
+
+/* ############ large responsive css end ############ */
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+/* ############ extra-large responsive css start ############ */
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+    /* === (xl) banner responsive start === */
+    
+    #banner {
+        padding-top: 0;
+    }
+
+    .banner_img {
+        width: 100%;
+    }
+
+    .banner_img img{
+        width: 100%;
+        height: 100%;
+    }
+
+    /* === (xl) banner responsive end === */
+
+    /* === (xl) payment responsive start === */
+
+    .payment_part img {
+        width: 400px;
+    }
+
+    .payment_cart {
+        box-shadow: none;
+    }
+
+    /* === (xl) payment responsive end === */
+
+    /* === (xl) review responsive start === */
+
+    .review_col {
+        width: 390px;
+        flex-wrap: nowrap;
+    }
+
+    .review_card {
+        width: 330px;
+        height: 340px;
+    }
+
+    .review_card p {
+        font-size: 17px;
+    }
+
+    /* === (xl) review responsive end === */
+
+    /* === (xl) facilities responsive start === */
+
+    #facilities img {
+        width: 400px;
+    }
+
+    #facilities .fcimg {
+        width: 430px;
+    }
+
+    #facilities .row {
+        flex-wrap: nowrap
+    }
+
+    .facilities_info {
+        height: 400px;
+    }
+
+    /* === (xl) facilities responsive end === */
+
+    /* === (xl) support responsive start === */
+
+    #support .row{
+        flex-wrap: nowrap;
+    }
+
+    #support .col-xxl-4 {
+        width: 380px;
+    }
+
+    .support_card {
+        width: 350px;
+    }
+
+    /* === (xl) support responsive end === */
+
+    /* === (xl) contact responsive start === */
+
+    #contact .col-xxl-6 {
+        width: 50%;
+    }
+
+    .contact_info {
+        width: 100%;
+    }
+    /* === (xl) contact responsive end === */
+
+    /* === (xl) footer responsive start === */
+
+    footer .contact_items {
+        width: 380px;
+    }
+
+    .footer_links .links {
+        margin-top: 20px;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .deadline {
+        margin-top: 20px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    /* === (xl) footer responsive end === */
+}
+
+/* ############ extra-large responsive css end ############ */
+
+

@@ -1,0 +1,827 @@
+/* ============= fonts-link part start ========= */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+
+/* ============= fonts-link part end ========= */
+
+/* ============= common css part start =========== */
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul,ol{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --roboto: "Roboto", sans-serif;
+    --poppins: "Poppins", sans-serif;
+    --stencil: "Allerta Stencil", sans-serif;
+    --brand-color: #ABDFFF;
+}
+
+/* ============= common css part start =========== */
+
+/* ============= navbar css part start =========== */
+
+.navbar{
+    background-color: var(--brand-color);
+}
+
+.navbar-brand{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: var(--roboto);
+    color: #000000;
+}
+
+.check_box{
+    width: 110px;
+    height: 30px;
+    border: 1px solid #212529;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px 1px #2125295e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: var(--roboto);
+    color: #212529;
+    margin-left: 22px;
+}
+
+.nav-item{
+    padding: 20px;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: var(--roboto);
+    color: #000000;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 400;
+}
+
+.call{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 400;
+}
+
+/* ============= navbar css part end =========== */
+
+/* ============= banner css part start =========== */
+
+#banner{
+    padding-top: 37px;
+    padding-bottom: 79px;
+}
+
+.banner_info{
+    margin-top: 100px;
+}
+
+.banner_info h1{
+    width: 713px;
+    font-size: 76px;
+    font-weight: 400;
+    font-family: var(--stencil);
+    color: #000000;
+    line-height: 92px;
+    text-transform: uppercase;
+}
+
+.banner_info p{
+    width: 378px;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: var(--roboto);
+    color: #060A26;
+    line-height: 24px;
+    margin-top: 10px;
+}
+
+.banner_info .reviews .star{
+    font-size: 20px;
+    line-height: 20px;
+    color: var(--brand-color);
+    margin-top: 15px;
+}
+
+.banner_img img{
+    width: 700px;
+    height: 700px;
+    margin-left: 40px;
+    margin-top: 36px;
+    filter: drop-shadow(10px 5px 5px rgba(0, 0, 0, 0.3));
+    animation: move linear 1.5s alternate infinite;
+}
+
+@keyframes move{
+    0%{
+        transform: translateY(-10px);
+    }
+    50%{
+        transform: translateY(-30px);
+    }
+    80%{
+        transform: translateY(-50px);
+    }
+    100%{
+        transform: translateY(-40px);
+    }
+}
+
+.buttons{
+    margin-top: 10px;
+}
+
+button{
+    width: 112px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    background-color: #ffffff;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: var(--roboto);
+    color: #343434;
+    line-height: 24px;
+    transition: all linear 0.2s;
+}
+
+button:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+
+/* ============= banner css part end =========== */
+
+/* ============= manu css part start =========== */
+
+#manu{
+    padding-bottom: 20px;
+}
+
+#manu h2{
+    text-align: center;
+}
+
+.manu_items{
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px 50px;
+}
+
+#manu .manu_box{
+    width: 363px;
+    height: 350px;
+    border-radius: 25px;
+    box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.2), 15px 15px 15px rgba(0,0,0,0.1), inset -50px -50px 50px rgba(255, 255, 255, 0.2), inset 50px 50px 50px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: all linear 0.2s;
+}
+
+#manu .manu_box:hover{
+    transform: translateY(-10px);
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.5), 20px 20px 5px rgba(0,0,0,0.08), inset -20px -10px 30px rgba(0,0,0,0.1);
+}
+
+.food_img{
+    width: 135px;
+    height: 135px;
+    border-radius: 68px;
+    background-color: var(--brand-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.food_img img{
+    transition: all linear 0.2s;
+}
+
+.food_img:hover img{
+    transform: translateY(-7px);
+    filter: drop-shadow(2px 5px 3px rgba(0, 0, 0, 0.5));
+}
+
+.manu_box h3{
+    font-size: 20px;
+    font-weight: 300;
+    font-family: var(--roboto);
+    color: #212529;
+    margin: 25px auto
+}
+
+.manu_box p{
+    font-size: 16px;
+    font-weight: 300;
+    font-family: var(--roboto);
+    color: #212529;
+}
+
+.manu_box p span{
+    font-weight: 400;
+    font-family: var(--roboto);
+    color: #0000B3;
+}
+
+.manu_box a{
+    width: 128px;
+    height: 36px;
+    border-radius: 5px;
+    background-color: var(--brand-color);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--roboto);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    margin-top: 17px;
+    transition: all linear 0.2s;
+}
+
+.manu_box a:hover{
+    background-color: #ffffff;
+    color: var(--brand-color);
+    transform: translateY(-5px);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3), inset 4px 3px 5px rgba(0, 0, 0, 0.1);
+}
+/* ============= manu css part end =========== */
+
+/* ============= payment css part start =========== */
+
+#payment{
+    margin: 20px auto;
+}
+
+.payment_part{
+    width: 100%;
+    border-radius: 25px;
+    box-shadow: inset 5px 5px 10px rgb(0, 0, 0, 0.2), inset -5px -5px 10px rgb(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+
+.payment_part img{
+    width: 600px;
+}
+
+.payment_cart{
+    width: 500px;
+    height: 500px;
+    box-shadow: inset 5px 5px 10px rgb(0, 0, 0, 0.05), inset -5px -5px 10px rgb(0, 0, 0, 0.3);
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.payment_cart::before{
+    content: '';
+    width: 80%;
+    height: 80%;
+    border-radius: 25px;
+    box-shadow: inset 5px 5px 10px rgb(0, 0, 0, 0.05), inset -5px -5px 10px rgb(0, 0, 0, 0.3);
+    position: absolute;
+}
+
+.payment_cart .payment_make{
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+    box-shadow: inset 5px 5px 10px rgb(0, 0, 0, 0.05), inset -5px -5px 10px rgb(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.payment_cart .payment_make h3{
+    font-size: 20px;
+    font-weight: 300;
+    font-family: var(--poppins);
+    color: #212529;
+    margin-bottom: 14px;
+}
+
+.payment_cart .payment_make .btn{
+    width: 152px;
+    height: 46px;
+    border-radius: 2px;
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.3);
+    background-color: var(--brand-color);
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: var(--roboto);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 42px;
+}
+
+.payment_cart .payment_make p{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: var(--roboto);
+    color: #212529;
+    margin-bottom: 40px;
+}
+
+.payment_cart .payment_make a{
+    width: 166px;
+    height: 46px;
+    border-radius: 2px;
+    background-color: #4285F4;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: var(--roboto);
+    line-height: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ============= payment css part end =========== */
+
+/* ============= reviews css part start =========== */
+
+#reviews{
+    margin: 25px auto;
+}
+
+#reviews h3{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.review_card{
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.2), 15px 15px 15px rgba(0,0,0,0.1), inset -50px -50px 50px rgba(255, 255, 255, 0.2), inset 50px 50px 50px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.review_card h3{
+    font-size: 20px;
+    font-weight: 300;
+    font-family: var(--roboto);
+    color: #212529;
+    line-height: 24px;
+}
+
+.review_card p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: var(--roboto);
+    color: #212529;
+    line-height: 24px;
+}
+/* ============= reviews css part end =========== */
+
+/* ============= facilities css part start =========== */
+
+#facilities{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#facilities img{
+    width: 600px;
+}
+
+.facilities_info{
+    width: 600px;
+    height: 600px;
+    box-shadow: inset 5px 5px 10px rgb(0, 0, 0, 0.05), inset -5px -5px 10px rgb(0, 0, 0, 0.3);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.facilities_info h3{
+    font-size: 28px;
+    font-weight: 300;
+    font-family: var(--roboto);
+    color: #212529;
+    line-height: 33px;
+    margin-bottom: 5px;
+}
+
+.facilities_info p{
+    font-size: 16px;
+    font-weight: 300;
+    font-family: var(--roboto);
+    color: #212529;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.facilities_info h4{
+    font-size: 24px;
+    font-weight: 300;
+    font-family: var(--roboto);
+    color: #212529;
+    line-height: 29px;
+}
+
+.facilities_info .service ul{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px 50px;
+}
+
+.facilities_info .service ul li{
+    width: 200px;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: var(--roboto);
+    color: #212529;
+    line-height: 19px;
+    list-style: none;
+}
+/* ============= facilities css part end =========== */
+
+/* ============= support css part start =========== */
+
+#support{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.support_card{
+    width: 400px;
+    height: 200px;
+    border-radius: 25px;
+    box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.2), 15px 15px 15px rgba(0,0,0,0.1), inset -50px -50px 50px rgba(255, 255, 255, 0.2), inset 50px 50px 50px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.support_card .support_img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: var(--brand-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.support_card h3{
+    font-size: 28px;
+    font-weight: 300;
+    font-family: var(--roboto);
+    color: #212529;
+    line-height: 34px;
+    text-align: center;
+}
+
+.support_card p{
+    font-size: 16px;
+    font-weight: 300;
+    font-family: var(--roboto);
+    color: #212529;
+    line-height: 24px;
+    text-align: center;
+}
+
+/* ============= support css part end =========== */
+
+/* ============= contact css part start =========== */
+
+#contact{
+    padding-bottom: 25px;
+}
+
+.contact_info{
+    width: 600px;
+    height: 400px;
+    border-radius: 25px;
+    box-shadow: inset 5px 5px 10px rgb(0, 0, 0, 0.05), inset -5px -5px 10px rgb(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 15px;
+    gap: 20px;
+}
+
+.contact_info h3{
+    font-size: 28px;
+    font-weight: 300;
+    font-family: var(--roboto);
+    color: #212529;
+}
+
+.contact_info form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact_info form input{
+    width: 80%;
+    border-radius: 5px;
+    border-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+}
+
+.contact_info form .massage{
+    height: 100px;
+}
+
+.contact_info form .submit{
+    border-radius: 2px;
+    border: none;
+    background-color: var(--brand-color);
+    font-size: 15px;
+    font-weight: 400;
+    font-family: var(--roboto);
+    color: #ffffff;
+}
+
+.map{
+    width: 600px;
+    height: 400px;
+    box-shadow: inset 5px 5px 10px rgb(0, 0, 0, 0.05), inset -5px -5px 10px rgb(0, 0, 0, 0.3);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.map img{
+    width: 550px;
+    height: 300px;
+}
+
+.map p span{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--roboto);
+    color: #212529;
+    line-height: 24px;
+}
+
+/* ============= contact css part end =========== */
+
+/* ============= footer css part start =========== */
+
+footer{
+    padding-top: 83px;
+    background-color: #151414;
+}
+
+footer .contact_items{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer .contact_items a{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+footer .contact_items a i{
+    font-size: 20px;
+    color: var(--brand-color);
+}
+
+footer .contact_items a .info h5{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: var(--roboto);
+    line-height: 24px;
+    color: #ffffff;
+}
+
+footer .contact_items a .info p{
+    font-size: 15px;
+    font-weight: 300;
+    font-family: var(--roboto);
+    line-height: 23px;
+    color: #757575;
+}
+
+.footer_card h4{
+    font-size: 30px;
+    margin-top: 50px;
+    text-align: center;
+    color: var(--brand-color);
+}
+
+.footer_card p{
+    margin-top: 20px;
+    text-align: center;
+    color: #757575;
+}
+
+.footer_card h5{
+    margin-top: 50px;
+    font-size: 30px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.footer_card .Logo{
+    margin-top: 30px;
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.reflection a{
+    width: 70px;
+    height: 70px;
+    border: 3px solid #ffffff;
+    box-shadow: 0px 0px 60px #1f4c65;
+    border-radius: 10px;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    transition: all linear 0.3s;
+    -webkit-box-reflect: below 10px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.2));
+}
+
+.reflection a:hover{
+    scale: 1.2;
+}
+
+.reflection a::before{
+    content: '';
+    width: 100px;
+    height: 150px;
+    top: 10px;
+    left: -80px;
+    transform: rotate(-70deg);
+    position: absolute;
+    background: linear-gradient(120deg, rgba(255,255,255, 0) 30%, rgba(255,255,255, .8), rgba(255,255,255, 0) 70%);
+}
+
+.reflection a:hover::before{
+    top: -60px;
+    left: 100px;
+    transition: all linear 0.7s;
+}
+
+.footer_card .Logo i{
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.facebook a:hover{
+    background: linear-gradient(270deg, rgb(38, 83, 155) 0%, rgb(47, 127, 255) 60%);
+}
+
+.twitter a:hover{
+    background: linear-gradient(270deg, rgb(37, 119, 173) 0%, rgb(37, 168, 255) 60%);
+}
+
+.linkedin a:hover{
+    background: linear-gradient(270deg, rgba(32, 105, 145, 0.692)0%, rgb(2, 144, 221) 60%);
+}
+
+.youtube a:hover{
+    background: linear-gradient(270deg, rgb(196, 39, 39) 0%, rgb(255, 42, 42) 60%);
+}
+
+.footer_links h4{
+    font-size: 30px;
+    margin-top: 40px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.footer_links .links{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer_links .links a{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: var(--roboto);
+    color: #757575;
+}
+.subscribe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.subscribe h4{
+    font-size: 30px;
+    margin-top: 40px;
+    color: #ffffff;
+}
+
+.subscribe p{
+    margin-top: 30px;
+    color: #757575;
+}
+
+.subscribe .email{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.subscribe .email input{
+    width: 330px;
+    height: 55px;
+    padding: 10px;
+    position: relative;
+}
+
+.subscribe .email button{
+    width: 60px;
+    height: 55px;
+    font-size: 20px;
+    border: none;
+    background-color: var(--brand-color);
+    position: absolute;
+}
+
+.deadline{
+    padding-top: 45px;
+    padding-bottom: 64px;
+    background-color: #202020;
+}
+
+.deadline p{
+    font-size: 17px;
+    font-weight: 400;
+    font-family: var(--roboto);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.deadline .footer_link{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.deadline .footer_link a{
+    color: #757575;
+}
+
+.deadline .footer_link a:hover{
+    color: #ffffff;
+}
+/* ============= footer css part end =========== */
